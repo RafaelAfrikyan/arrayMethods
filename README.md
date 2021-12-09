@@ -19,3 +19,9 @@ and return an array of numbers as per the following rules:
 - "Desc" returns a sorted array in descending order.
 
 [Sort.js](Sort.js)
+
+# 3. Resolve with Map method
+
+Your function must use map method.
+
+[Map.js](Map.js)
