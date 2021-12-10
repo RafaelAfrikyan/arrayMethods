@@ -32,7 +32,11 @@ let arr = ["1", "px", "2", "34"];
 let result = [];
 function parseInteger(arr) {
   arr.map((el) => {
-    result.push(parseInt(el));
+    if (isNaN(parseInt(el))) {
+      el = null;
+    } else {
+      result.push(parseInt(el));
+    }
   });
   return result;
 }
