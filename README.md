@@ -25,3 +25,7 @@ and return an array of numbers as per the following rules:
 Your function must use map method.
 
 [Map.js](Map.js)
+
+# 5. Implementation of forEach method.
+
+[forEachImplement.js](forEachImplement.js)
