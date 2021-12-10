@@ -1,8 +1,17 @@
 // Impelemntation of forEach.
 
-function myForEach(arr) {
-  for (i = 0; i < arr.length; i++) {
-    return arr[i];
+let arr = [1, 2, 3, 4, 5];
+
+const fakeForEach = function (arr, cd) {
+  for (let i = 0; i <= arr.length; i++) {
+    if (cd(arr[i])) {
+      console.log(arr[i]);
+    }
   }
-  return arr[i];
-}
+};
+
+console.log(
+  fakeForEach(arr, (el) => {
+    return el < 3;
+  })
+);

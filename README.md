@@ -29,3 +29,7 @@ Your function must use map method.
 # 5. Implementation of forEach method.
 
 [forEachImplement.js](forEachImplement.js)
+
+# 6. Implementation of filter methof
+
+[fakeFilter.js](fakeFilter.js)
