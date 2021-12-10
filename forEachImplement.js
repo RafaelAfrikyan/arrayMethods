@@ -1,17 +1,13 @@
-// Impelemntation of forEach.
+// Implementation of forEach.
 
 let arr = [1, 2, 3, 4, 5];
 
-const fakeForEach = function (arr, cd) {
-  for (let i = 0; i <= arr.length; i++) {
-    if (cd(arr[i])) {
-      console.log(arr[i]);
-    }
+const fakeForEach = function (arr, fun) {
+  for (let i = 0; i < arr.length; i++) {
+    fun(arr[i], i, arr);
   }
 };
 
-console.log(
-  fakeForEach(arr, (el) => {
-    return el < 3;
-  })
-);
+fakeForEach(arr, (el, i, originalArr) => {
+  console.log(el, i, originalArr);
+});
