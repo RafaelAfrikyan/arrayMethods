@@ -1,6 +1,6 @@
 # 1. Concate Arrays
 
--Concatenate the two arrays.
+- the two arrays.
 
 [concateArr.js](concateArr.js)
 
