@@ -1,12 +1,12 @@
 # 1. Concate Arrays
 
-Concatenate the two arrays.
+-Concatenate the two arrays.
 
 [concateArr.js](concateArr.js)
 
 # 2. Resolve with filter method
 
-write a functions which can do some filter with arrays
+- write a functions which can do some filter with arrays
 
 [Filter.js](Filter.js)
 
@@ -20,7 +20,7 @@ and return an array of numbers as per the following rules:
 
 [Sort.js](Sort.js)
 
-# 3. Resolve with Map method
+# 4. Resolve with Map method
 
 Your function must use map method.
 
