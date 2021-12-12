@@ -30,6 +30,18 @@ Your function must use map method.
 
 [forEachImplement.js](forEachImplement.js)
 
-# 6. Implementation of filter methof
+# 6. Implementation of filter method
 
 [fakeFilter.js](fakeFilter.js)
+
+# 7. Implementation of Map method
+
+[fakeMap.js](fakeMap.js)
+
+# 8. Implementation of Slice method
+
+[fakeSlice.js](fakeSlice.js)
+
+# 9. Implementation of Reduce method
+
+[fakeReduce.js](fakeReduce.js)
